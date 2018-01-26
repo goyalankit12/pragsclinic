@@ -11,7 +11,7 @@
     <title>New Age - Start Bootstrap Theme</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
     <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
