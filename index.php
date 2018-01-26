@@ -19,15 +19,15 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!-- Plugin CSS -->
+    <!-- Plugin CSS
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
-
+-->
 <!--    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script> -->
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
 
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    <link rel="stylesheet" href="/resources/demos/style.css">
+  <!--  <link rel="stylesheet" href="/resources/demos/style.css"> -->
     <!--<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
