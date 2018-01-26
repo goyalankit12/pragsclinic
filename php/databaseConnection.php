@@ -5,9 +5,9 @@ class dbQuery{
 private $conn=null;
 
    public function connectionCreate(){
-      // $connStr = "host=localhost port=5432 dbname=Physio user=postgres password=Ankit@14";
+       $connStr = "host=localhost port=5432 dbname=Physio user=postgres password=Ankit@14";
 
-       $connStr = "host=ec2-54-163-237-249.compute-1.amazonaws.com port=5432 dbname=d4ucfaumbk3u81 user=ydghjefozwkojz password=4231b3cded77c91dda7ec677dcd3f96844d672721effc474708a4e830e8ac4b3";
+     //  $connStr = "host=ec2-54-163-237-249.compute-1.amazonaws.com port=5432 dbname=d4ucfaumbk3u81 user=ydghjefozwkojz password=4231b3cded77c91dda7ec677dcd3f96844d672721effc474708a4e830e8ac4b3";
        $this->conn = pg_connect($connStr);
    }
 
