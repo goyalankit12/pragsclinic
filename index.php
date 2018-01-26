@@ -10,7 +10,7 @@
 
     <title>Prags Physio Clinic Patient Portal</title>
 
-    <link href="css/bootstrap.css" rel="stylesheet">
+<!--    <link href="css/bootstrap.css" rel="stylesheet"> -->
 
       <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet"><link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -19,6 +19,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="css/new-age.min.css" rel="stylesheet">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   </head>
 
@@ -30,11 +32,12 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Prags Pyhsiotherapy Clinic</a>
+          <a style="float:left" class="navbar-brand js-scroll-trigger" href="#page-top"> <img src="images/logo.png" WIDTH="15%"  class="img-responsive" ></a>
       </div>
     </nav>
 
 <br/><br/>
+    <br/><br/>
     <!-- New Patient add -->
 
 
@@ -43,12 +46,13 @@
         <button data-toggle="collapse" data-target="#newPatient" aria-expanded="false" aria-controls="newPatient"  class="btn btn-info" ><span class='glyphicon glyphicon-plus'></span>Add New Patient</button>
     </div>
     <br/><br/>
-      <div class="collapse download bg-primary text-center" id="newPatient">
-        <div class="container">
-          <div class="row"><br/><br/>
-           <div class="form-group alert alert-danger col-lg-7 offset-lg-3" id="NewPatientError"> </div>
+      <div class="collapse download  text-center" id="newPatient">
+        <div class="container" >
+            <div class="bg-primary ">
+          <div class="row col-md-8 mx-auto"><br/><br/>
+              <div class="container col-sm-12 offset-lg-3 col-lg-9 "><div class="form-group alert alert-danger" id="NewPatientError"> </div></div>
           </div>
-          <div class="row">
+          <div class="row ">
             <div class="col-md-8 mx-auto">
               <div class="container col-sm-12 ">
                 </br>
@@ -98,32 +102,33 @@
               </form>
             </div>
           </div>
+          </div>
         </div>
       </div>
     </div>
 
+<hr style="border-top: 5px solid #8c8b8b" />
+
 <br/><br/>
     <div class=" features text-center col-12 text-center">
       <div class="container">
-        <div class="row">
-            <h2 class=" col-sm-12 offset-lg-3  col-lg-6" ><b> Search Patient</b></h2>
+        <div class="row col-md-8 col-lg-12">
+            <h2 class="" ><b> Search Patient</b></h2>
         </div>
-          <div class="row">
-      <div  class=" col-sm-12 offset-lg-3  col-lg-6 alert alert-danger" id="SearchPatientError"> </div>
-    </div>
+        <div class="row col-md-8  col-lg-12 ">
+            <div  class="alert alert-danger" id="SearchPatientError"> </div>
+        </div>
       </div>
     </div>
 
     <div class="features text-center" id="enrole">
       <div class="container">
-        <div class="row">
-          <div class="col-md-12 col-lg-12 col-sm-12 mx-auto">
-           <h2  class="section-heading">Search Patient</h2>
-           <hr>
-           <div class="container col-sm-12 col-lg-12 col-md-12">
+        <div class="row col-md-12 mx-auto">
+          <div class=" col-lg-12 col-sm-12 ">
+           <div class="container col-sm-7 col-lg-12 col-md-12">
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Search Patient
+                  Select Patient  <span class='caret'> </span>
               </button>
               <div class="dropdown-menu" id="PatientList" aria-labelledby="dropdownMenuButton"></div>
             </div>
@@ -147,7 +152,7 @@
     <div class="bg-light text-center" >
       <div class="container">
         <div class="row">
-          <div class="col-md-12 col-sm-12 mx-auto">
+          <div class="" >
     <table class="table table-user-information">
       <tbody>
       <tr>
@@ -179,67 +184,67 @@
         </div>
       </div>
     </div>
-
+<hr/>
   </br></br>
 
 <!-- Edit Patient Profile -->
-    <div class="collapse download bg-primary text-center" id="patientProfile_edit">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-            <div class="container col-sm-12 ">
-              <div class="col-12" align="center">
-                <h2><b>Update Patient Profile</b></h2>
-              </div>
-              </br>
-              <form class="form-horizontal" action="">
-                <div class="form-group alert alert-danger offset-2 col-12" id="PatientError_edit"> </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" >Name:</label>
-                  <div class="col-sm-9">
-                    <input type="text" class="form-control" id="name_edit"  placeholder="Name">
+    <div class="collapse download text-center" id="patientProfile_edit">
+        <div class="container " >
+            <div class="bg-primary">
+                <div class="row col-md-8 mx-auto">
+                  <div align="center">
+                    <h2><b>Update Patient Profile</b></h2>
                   </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" >Address:</label>
-                  <div class="col-sm-9">
-                    <input type="text" class="form-control" id="address_edit"  placeholder="Adress">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3" >Age:</label>
-                  <div class="col-sm-9">
-                    <input type="text" class="form-control" id="age_edit" placeholder="Age">
-                  </div>
-                </div>
+                  </br>
+                  <div class="container" align="center">
+                      <div class="alert alert-danger offset-4 col-8" id="PatientError_edit"> </div>
+                      <form class="form-horizontal" action="">
+                        <div class="form-group">
+                          <label class="control-label col-sm-3" >Name:</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" id="name_edit"  placeholder="Name">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-3" >Address:</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" id="address_edit"  placeholder="Adress">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-3" >Age:</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" id="age_edit" placeholder="Age">
+                          </div>
+                        </div>
 
-                <div class="form-group">
-                  <label class="control-label col-sm-3" >contact:</label>
-                  <div class="col-sm-9">
-                    <input type="email" class="form-control" id="contactinfo_edit" placeholder="Contact" name="contact">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label col-sm-3">Reference:</label>
-                  <div class="col-sm-9">
-                    <input type="text" class="form-control" id="reference_edit" placeholder="reference" name="reference">
-                  </div>
-                </div>
-                <div class="form-group">
-                   <div class="offset-3 col-7">
-                    <button type='button' onclick="submitPateintupdateForm_edit()" class='btn btn-info'><span class='glyphicon glyphicon-ok'></span>Update</button>
-                  </div>
-                </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-3" >contact:</label>
+                          <div class="col-sm-9">
+                            <input type="email" class="form-control" id="contactinfo_edit" placeholder="Contact" name="contact">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="control-label col-sm-3">Reference:</label>
+                          <div class="col-sm-9">
+                            <input type="text" class="form-control" id="reference_edit" placeholder="reference" name="reference">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                           <div class="offset-3 col-7">
+                            <button type='button' onclick="submitPateintupdateForm_edit()" class='btn btn-info'><span class='glyphicon glyphicon-ok'></span>Update</button>
+                          </div>
+                        </div>
 
-                <div class="form-group">
-                  <div class="col-sm-offset-5 col-sm-7">
-                    <div id="success_patient_updated_edit"></div>
-                  </div>
+                        <div class="form-group">
+                          <div class="col-sm-offset-5 col-sm-7">
+                            <div id="success_patient_updated_edit"></div>
+                          </div>
+                        </div>
+                      </form>
                 </div>
-              </form>
             </div>
-          </div>
-        </div>
+            </div>
       </div>
     </div>
 
@@ -247,18 +252,20 @@
 
     <br/><br/>
     <!-- Enrolemnt for treatment -->
-    <div class="collapse download bg-primary text-center" id="enrolmentforTreatment">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
+    <div class="collapse download text-center" id="enrolmentforTreatment">
+        <div class="container" >
+
+            <div class="bg-primary">
+                <div class="row col-md-8 mx-auto">
             <h3><b>Start Treatment</b></h3>
             <br/>
             <br/>
+                    <div class="col-sm-8">
+                        <div class=" alert alert-danger" id="enrolmentforTreatment_error"> </div>
+                    </div>
             <div class="container col-sm-12 ">
               <form class="form-horizontal" action="">
-                <div class="form-group col-sm-12">
-                  <div class="form-group alert alert-danger" id="enrolmentforTreatment_error"> </div>
-                </div>
+
 
                 <div class="form-group">
                   <label class="control-label col-sm-3" >Description:</label>
@@ -334,21 +341,19 @@
     <!-- update treatment -->
 
   <br/><br/>
-    <div class="collapse download bg-primary text-center" id="enrolmentforTreatment_edit">
+    <div class="collapse download text-center" id="enrolmentforTreatment_edit">
       <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
+        <div class=" bg-primary">
+          <div class=" row col-md-8 mx-auto">
             <h3><b>Update Treatment</b></h3>
             <br/>
             <br/>
             <div class="container col-sm-12 ">
-              <form class="form-horizontal" action="">
-
-
-                <div class="form-group col-sm-12">
-                  <div class="form-group alert alert-danger" id="enrolmentforTreatment_edit_error"> </div>
+                <div class=" col-sm-8">
+                    <div class="alert alert-danger" id="enrolmentforTreatment_edit_error"> </div>
                 </div>
 
+              <form class="form-horizontal" action="">
                 <div class="form-group">
                   <label class="control-label col-sm-3" >Description:</label>
                   <div class="col-sm-9">
@@ -412,7 +417,7 @@
                 <th scope="col">#</th>
                 <th scope="col">amount</th>
                 <th scope="col">status</th>
-                <th scope="col">Date Enrolled</th>
+                <th scope="col">Date Visited</th>
                 <th scope="col">Edit</th>
               </tr>
               </thead>
@@ -421,8 +426,9 @@
           <h5><b>Total Fee:</b></h5><div class="alert alert-info" id="totalFee">0</div>
         </div>
         <br/><br/>
-        <div  class=" bg-primary row">
-          <div class="col-md-8 mx-auto">
+          <div class="container">
+              <div class=" bg-primary">
+                  <div class=" row col-md-8 mx-auto">
             <h3><b>Enter Visit</b></h3>
             <div class="container col-sm-12 ">
 
@@ -482,6 +488,7 @@
               </form>
             </div>
           </div>
+              </div>
         </div>
       </div>
     </div>
@@ -490,16 +497,11 @@
 
 <!-- Visit Hostory -->
     <div class="collapse bg-white text-center" id="PatientVisitstHistory_edit">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 mx-auto">
-          </div>
-        </div>
-        <br/><br/>
-        <div  class=" bg-primary row">
-          <div class="col-md-8 mx-auto">
-            <h3><b>Update Visit</b></h3>
-              <div class="form-group alert alert-danger" id="visitAddError_edit"> </div>
+        <div class="container">
+            <div class=" bg-primary">
+                <div class=" row col-md-8 mx-auto">          <div class="col-md-8 mx-auto">
+                    <h3><b>Update Visit</b></h3>
+              <div class=" alert alert-danger" id="visitAddError_edit"> </div>
 
               <form class="form-horizontal" action="">
                 <input type="hidden" class="form-control" id="visitID_edit"  placeholder="">
@@ -539,6 +541,8 @@
 
     <br/><br/>
 
+
+    <hr style="border-top: 5px solid #8c8b8b" />
 
     <!-- report -->
 
@@ -647,6 +651,7 @@
                         aTag.innerHTML = response[i]['name']+"</br>";
                         aTag.className="dropdown-item";
                         aTag.style="cursor: pointer";
+                        aTag.style="align: center";
                         dropdownTag.appendChild(aTag);
                     }
                },
@@ -864,13 +869,14 @@
                     for(var i=0 ;i < response.length; i++) {
                           var desc = response[i]['description'];
                          var dateEnroled =response[i]['day'].toString()+"/"+response[i]['month'].toString()+"/"+response[i]['year'].toString();
-                     str+= "<tr><th scope='row'>"+(parseInt(i)+1) +"</th>"+
+
+                         str+= "<tr><th scope='row'>"+(parseInt(i)+1) +"</th>"+
                                 "<td>"+response[i]['description']+"</td>"+
                           "<td>"+response[i]['visit']+"</td>"+
                           "<td>"+response[i]['fee']+"</td>"+
                           "<td>"+dateEnroled+"</td>"+
                           "<td> <button type='button' class='btn-sm btn-info' onclick='enrolementUpdateFormPopulate("+response[i]['id']+")' ><span class='glyphicon glyphicon-edit'></span></button>"+"</td>"+
-                          "<td> <button  type='button' class='btn-sm btn-info' onclick='loadVisits("+response[i]['id']+","+dateEnroled+")' ><span class='glyphicon glyphicon-plus'></span></button>"+"</td>"+
+                          "<td> <button  type='button' class='btn-sm btn-info' onclick='loadVisits("+response[i]['id']+",\""+response[i]['description']+"\",\""+dateEnroled+"\")' ><span class='glyphicon glyphicon-plus'></span></button>"+"</td>"+
                         "</tr>"
                     }
                     $("#EnrolmentHistory").find('tbody').html(str);
@@ -883,9 +889,11 @@
 
 
 
-        function loadVisits(treatmentID,dateEnroled){
+        function loadVisits(treatmentID,desc,dateEnroled){
+            //alert("dateEnroled==="+dateEnroled);
             reset();
             $('#PatientVisitstHistory').collapse("show");
+            document.getElementById("description").innerHTML=desc;
             document.getElementById("dateEnroled").innerHTML=dateEnroled;
             document.getElementById("enrolementID_visit").value=treatmentID;
 
