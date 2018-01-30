@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="211c8b23-c2e4-40a6-b8f1-5a79dd1d0eb1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/databaseConnection.php" afterPath="$PROJECT_DIR$/php/databaseConnection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/php/reports.php" afterPath="$PROJECT_DIR$/php/reports.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,16 +23,41 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="545" column="0" lean-forward="true" selection-start-line="545" selection-start-column="0" selection-end-line="545" selection-end-column="0" />
+            <state relative-caret-position="71">
+              <caret line="910" column="12" lean-forward="false" selection-start-line="910" selection-start-column="12" selection-end-line="910" selection-end-column="12" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#hr#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#hr#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#23990#24912#0#HTML" expanded="false" />
+                <element signature="e#25004#26234#0#HTML" expanded="false" />
+                <element signature="e#26276#28400#0#HTML" expanded="false" />
+                <element signature="e#30402#30724#0#HTML" expanded="false" />
+                <element signature="e#30767#30871#0#HTML" expanded="false" />
+                <element signature="e#30913#31015#0#HTML" expanded="false" />
+                <element signature="e#31067#32858#0#HTML" expanded="false" />
+                <element signature="e#34966#37034#0#HTML" expanded="false" />
+                <element signature="e#39096#40684#0#HTML" expanded="false" />
+                <element signature="e#40729#42468#0#HTML" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reports.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/reports.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="802">
+              <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getPatientDetail.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/getPatientDetail.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,51 +65,57 @@
       <file leaf-file-name="databaseConnection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/databaseConnection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="476">
+              <caret line="303" column="213" lean-forward="false" selection-start-line="303" selection-start-column="213" selection-end-line="303" selection-end-column="213" />
               <folding>
-                <marker date="1516944674119" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
-                <marker date="1516944674119" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
-                <marker date="1516944674119" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
-                <marker date="1516944674119" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
-                <marker date="1516944674119" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
-                <marker date="1516944674119" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
-                <marker date="1516944674119" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
-                <marker date="1516944674119" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
-                <marker date="1516944674119" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
-                <marker date="1516944674119" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
-                <marker date="1516944674119" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
-                <marker date="1516944674119" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
-                <marker date="1516944674119" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8598:8804" ph="Select * fro... treamnet" />
-                <marker date="1516944674119" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
-                <marker date="1516944674119" expanded="true" signature="9393:9430" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="9393:9431" ph="Select * fro... enrolement" />
-                <marker date="1516944674119" expanded="true" signature="9393:9445" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
+                <marker date="1517294417629" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
+                <marker date="1517294417629" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
+                <marker date="1517294417629" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
+                <marker date="1517294417629" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
+                <marker date="1517294417629" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
+                <marker date="1517294417629" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
+                <marker date="1517294417629" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
+                <marker date="1517294417629" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
+                <marker date="1517294417629" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
+                <marker date="1517294417629" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
+                <marker date="1517294417629" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
+                <marker date="1517294417629" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8598:8797" ph="Select * fro... treatment" />
+                <marker date="1517294417629" expanded="true" signature="8598:8798" ph="Select * fro... treatment" />
+                <marker date="1517294417629" expanded="true" signature="8598:8845" ph="Select * fro... treamnet" />
+                <marker date="1517294417629" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
+                <marker date="1517294417629" expanded="true" signature="9430:9467" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="9430:9468" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="9430:9482" ph="Select * fro... enrolement" />
+                <marker date="1517294417629" expanded="true" signature="10240:10271" ph="Select * fro... patient" />
+                <marker date="1517294417629" expanded="true" signature="10240:10275" ph="Select * fro... patient" />
+                <marker date="1517294417629" expanded="true" signature="10240:10276" ph="Select * fro... patient" />
+                <marker date="1517294417629" expanded="true" signature="10240:10280" ph="Select * fro... patient" />
               </folding>
             </state>
           </provider>
@@ -113,10 +147,14 @@
       <find>enter vi</find>
       <find>alert</find>
       <find>resourc</find>
-      <find>loadVisits</find>
       <find>description</find>
       <find>hr</find>
       <find>&lt;hr</find>
+      <find>report</find>
+      <find>total fee</find>
+      <find>SearchPatientError</find>
+      <find>loadVisits</find>
+      <find>enrolementID_visit</find>
     </findStrings>
     <replaceStrings>
       <replace>div</replace>
@@ -145,8 +183,8 @@
         <option value="$PROJECT_DIR$/php/getPatientEnrolementForm.php" />
         <option value="$PROJECT_DIR$/php/updateVisit.php" />
         <option value="$PROJECT_DIR$/php/getVisitspecific.php" />
-        <option value="$PROJECT_DIR$/php/reports.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/php/reports.php" />
         <option value="$PROJECT_DIR$/php/databaseConnection.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
@@ -161,7 +199,7 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
-    <option name="width" value="1138" />
+    <option name="width" value="1223" />
     <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
@@ -179,6 +217,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,6 +228,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="anshu" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anshu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="anshu" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -235,8 +289,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,22 +383,22 @@
       <workItem from="1516243558347" duration="11661000" />
       <workItem from="1516565751030" duration="12884000" />
       <workItem from="1516758195758" duration="8747000" />
-      <workItem from="1516852492743" duration="14665000" />
+      <workItem from="1516852492743" duration="15283000" />
+      <workItem from="1517287323996" duration="8581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85017000" />
+    <option name="totallyTimeSpent" value="94216000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="0" width="1138" height="1048" extended-state="0" />
+    <frame x="-9" y="0" width="1223" height="1048" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16339286" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16846474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27442372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21774796" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -357,6 +409,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27442372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -436,48 +489,54 @@
         <state relative-caret-position="616">
           <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding>
-            <marker date="1516944674119" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
-            <marker date="1516944674119" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
-            <marker date="1516944674119" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
-            <marker date="1516944674119" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
-            <marker date="1516944674119" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
-            <marker date="1516944674119" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8804" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
-            <marker date="1516944674119" expanded="true" signature="9393:9430" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="9393:9431" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="9393:9445" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
+            <marker date="1517294417629" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
+            <marker date="1517294417629" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
+            <marker date="1517294417629" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
+            <marker date="1517294417629" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8797" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="8598:8798" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="8598:8845" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
+            <marker date="1517294417629" expanded="true" signature="9430:9467" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="9430:9468" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="9430:9482" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="10240:10271" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10275" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10276" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10280" ph="Select * fro... patient" />
           </folding>
         </state>
       </provider>
@@ -557,48 +616,54 @@
         <state relative-caret-position="858">
           <caret line="39" column="13" lean-forward="false" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
           <folding>
-            <marker date="1516944674119" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
-            <marker date="1516944674119" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
-            <marker date="1516944674119" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
-            <marker date="1516944674119" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
-            <marker date="1516944674119" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
-            <marker date="1516944674119" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8804" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
-            <marker date="1516944674119" expanded="true" signature="9393:9430" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="9393:9431" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="9393:9445" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
+            <marker date="1517294417629" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
+            <marker date="1517294417629" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
+            <marker date="1517294417629" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
+            <marker date="1517294417629" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8797" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="8598:8798" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="8598:8845" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
+            <marker date="1517294417629" expanded="true" signature="9430:9467" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="9430:9468" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="9430:9482" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="10240:10271" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10275" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10276" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10280" ph="Select * fro... patient" />
           </folding>
         </state>
       </provider>
@@ -627,14 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/getPatientDetail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/getPatientVisitsDetail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -643,14 +700,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225126">
-          <caret line="10245" column="0" lean-forward="false" selection-start-line="10245" selection-start-column="0" selection-end-line="10246" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/jquery/jquery.js" />
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30162">
@@ -739,30 +789,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/php/reports.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="2959" column="14" lean-forward="false" selection-start-line="2959" selection-start-column="14" selection-end-line="2959" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -771,14 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js" />
     <entry file="file://$PROJECT_DIR$/js/bootstrap.bundle.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -795,84 +816,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/vendor/bootstrap/css/bootstrap.min.css" />
+    <entry file="file://$PROJECT_DIR$/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/php/reports.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6666">
-          <caret line="5" column="37170" lean-forward="false" selection-start-line="5" selection-start-column="37170" selection-end-line="5" selection-end-column="37170" />
+        <state relative-caret-position="802">
+          <caret line="43" column="2" lean-forward="true" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/getPatientDetail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/databaseConnection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        <state relative-caret-position="476">
+          <caret line="303" column="213" lean-forward="false" selection-start-line="303" selection-start-column="213" selection-end-line="303" selection-end-column="213" />
           <folding>
-            <marker date="1516944674119" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
-            <marker date="1516944674119" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
-            <marker date="1516944674119" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
-            <marker date="1516944674119" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
-            <marker date="1516944674119" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
-            <marker date="1516944674119" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
-            <marker date="1516944674119" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
-            <marker date="1516944674119" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
-            <marker date="1516944674119" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8598:8804" ph="Select * fro... treamnet" />
-            <marker date="1516944674119" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
-            <marker date="1516944674119" expanded="true" signature="9393:9430" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="9393:9431" ph="Select * fro... enrolement" />
-            <marker date="1516944674119" expanded="true" signature="9393:9445" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="836:975" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1554" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1615" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1461:1666" ph="update \&quot;pat... " />
+            <marker date="1517294417629" expanded="true" signature="1467:1554" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="1763:1806" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="1763:1849" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="1763:1854" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="2569:2604" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="2569:2608" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="3203:3296" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4019:4053" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4019:4058" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="4858:5006" ph="INSERT INTO \&quot;treatment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="5356:5493" ph="Update \&quot;tre... " />
+            <marker date="1517294417629" expanded="true" signature="5356:5540" ph="Update \&quot;tre... " />
+            <marker date="1517294417629" expanded="true" signature="5362:5493" ph="INSERT INTO \&quot;treatment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6040:6217" ph="INSERT INTO \&quot;enrolement\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6046:6217" ph="INSERT INTO \&quot;enrolment\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="6764:6931" ph="update \&quot;enr... " />
+            <marker date="1517294417629" expanded="true" signature="7074:7116" ph="Select id, n... patient" />
+            <marker date="1517294417629" expanded="true" signature="7080:7103" ph="INSERT INTO \&quot;patient\&quot;... " />
+            <marker date="1517294417629" expanded="true" signature="7586:7618" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="8598:8626" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8634" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8648" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8662" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8663" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8676" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8677" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8694" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8709" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8722" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8723" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8738" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8750" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8751" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8598:8797" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="8598:8798" ph="Select * fro... treatment" />
+            <marker date="1517294417629" expanded="true" signature="8598:8845" ph="Select * fro... treamnet" />
+            <marker date="1517294417629" expanded="true" signature="8611:8626" ph="update \&quot;enr... " />
+            <marker date="1517294417629" expanded="true" signature="9430:9467" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="9430:9468" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="9430:9482" ph="Select * fro... enrolement" />
+            <marker date="1517294417629" expanded="true" signature="10240:10271" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10275" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10276" ph="Select * fro... patient" />
+            <marker date="1517294417629" expanded="true" signature="10240:10280" ph="Select * fro... patient" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="545" column="0" lean-forward="true" selection-start-line="545" selection-start-column="0" selection-end-line="545" selection-end-column="0" />
+        <state relative-caret-position="71">
+          <caret line="910" column="12" lean-forward="false" selection-start-line="910" selection-start-column="12" selection-end-line="910" selection-end-column="12" />
           <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#hr#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#hr#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#10;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#23990#24912#0#HTML" expanded="false" />
+            <element signature="e#25004#26234#0#HTML" expanded="false" />
+            <element signature="e#26276#28400#0#HTML" expanded="false" />
+            <element signature="e#30402#30724#0#HTML" expanded="false" />
+            <element signature="e#30767#30871#0#HTML" expanded="false" />
+            <element signature="e#30913#31015#0#HTML" expanded="false" />
+            <element signature="e#31067#32858#0#HTML" expanded="false" />
+            <element signature="e#34966#37034#0#HTML" expanded="false" />
+            <element signature="e#39096#40684#0#HTML" expanded="false" />
+            <element signature="e#40729#42468#0#HTML" expanded="false" />
           </folding>
         </state>
       </provider>

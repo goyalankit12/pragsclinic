@@ -301,7 +301,7 @@ private $conn=null;
 
         $obj = array();
 
-        $sql="Select * from \"treatment\" where \"year\" Between $yearFrom and $yearTo and \"month\" Between $monthFrom and $monthTo and \"day\" between $dayFrom and $dayTo" ;
+        $sql="Select * from \"treatment\" where \"year\" Between $yearFrom and $yearTo and \"month\" Between $monthFrom and $monthTo and \"day\" between $dayFrom and $dayTo order by year DESC, month DESC, day DESC" ;
         $result = pg_query($this->conn,$sql);
         while($row =  pg_fetch_row($result)){
             //
@@ -323,22 +323,45 @@ private $conn=null;
     function enrolmentRange($enrollmentID){
         $enrollmentID = implode(', ', $enrollmentID);
         $obj = array();
-        echo $sql="Select * from enrolement where id in ($enrollmentID)";
+         $sql="Select * from enrolement where id in ($enrollmentID)";
         $result = pg_query($this->conn,$sql);
         while($row =  pg_fetch_row($result)){
             //obj = new Object();
             $objTemp = array();
+            $enrolID = $row[7];
             $objTemp['id']=$row[7];
+            $objTemp['patient_id']=$row[0];
             $objTemp['description']=trim($row[1]);
             $objTemp['visit']=$row[2];
             $objTemp['fee']=$row[3];
             $objTemp['year']=$row[4];
             $objTemp['month']=$row[5];
             $objTemp['day']=$row[6];
-            array_push($obj,$objTemp);
+
+            $obj[$enrolID]=$objTemp;
+           // array_push($obj,$objTemp);
         }
         return $obj;
     }
+
+
+
+    public function getPatientDetails_groupIDS($id){
+        $id = implode(', ', $id);
+        $obj = array();
+        $sql="Select * from patient where id in  ($id)";
+        $result = pg_query($this->conn,$sql);
+        while($row =  pg_fetch_row($result)){
+            $objTemp = array();
+            //$objTemp['id']=);
+            $objTemp['name']=trim($row[1]);
+            $obj[trim($row[0])]=$objTemp;
+            //array_push($obj,$objTemp);
+        }
+        return $obj;
+
+    }
+
 
 
 

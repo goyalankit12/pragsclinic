@@ -441,7 +441,7 @@
 
 
 
-              <form class="form-horizontal" action="/action_page.php">
+              <form class="form-horizontal" action="">
                 <input type="hidden" class="form-control" id="enrolementID_visit"  placeholder="Description">
 
 
@@ -560,18 +560,6 @@
           </div>
 
           <div class="form-group alert alert-danger" id="reportError"> </div>
-          <table id="reportTable" class="table table-striped">
-            <thead>
-            <tr>
-              <th scope="col">#</th>
-              <th scope="col">amount</th>
-              <th scope="col">status</th>
-              <th scope="col">Date Enrolled</th>
-              <th scope="col">Edit</th>
-            </tr>
-            </thead>
-            <tbody id=reportTable_body" ></tbody>
-          </table>
           <form class="form-horizontal" action="">
             <div class="form-group">
               <label class="control-label col-sm-3" >From:</label>
@@ -595,7 +583,22 @@
           </form>
 
 
+            <table id="reportTable" class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Date of Visit</th>
+                    <th scope="col">Fee</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Date Enrolment</th>
+                </tr>
+                </thead>
+                <tbody id=reportTable_body" ></tbody>
+            </table>
 
+            <h5><b>Total Fee:</b></h5><div class="alert alert-info" id="totalFee_report">0</div>
         </div>
 
         </div>
@@ -706,8 +709,9 @@
         function submitPateintupdateForm_edit(){
             //reset();
             var patient = new Object();
-            var errorMsg=""
-            patient["id"]=document.getElementById("patientID").value;
+            var errorMsg="";
+            var patientID=document.getElementById("patientID").value;
+            patient["id"]=patientID;
             patient["name"] = document.getElementById("name_edit").value;
             patient["address"] = document.getElementById("address_edit").value;
             patient["contactinfo"] = document.getElementById("contactinfo_edit").value;
@@ -736,9 +740,11 @@
                 } ,
                 success: function (response) {
                     console.log(response);
-                    $("#success_patient_updated_edit").html("<img width='15%' src='images/tick.svg' />");
-                    document.getElementById("PatientError_edit").innerHTML="Updated successfully.";
+                    reset();
+                    loadPatientDetails(patientID);
                     patientListpopulate();
+                    document.getElementById("SearchPatientError").innerHTML="Patient is Updated successfully."
+
                 },
                 error: function (textStatus, errorThrown) {
                     alert(textStatus+" - "+errorThrown);
@@ -837,7 +843,11 @@
                     data:enrolment_Treament
                 } ,
                 success: function (response) {
-                  document.getElementById("enrolmentforTreatment_edit_error").innerHTML="Updated Successfully.";
+
+                    reset();
+                    document.getElementById("SearchPatientError").innerHTML="Updated successfully."
+
+                 // document.getElementById("enrolmentforTreatment_edit_error").innerHTML="Updated Successfully.";
                 },
                 error: function (textStatus, errorThrown) {
                     alert(textStatus+" - "+errorThrown);
@@ -893,10 +903,12 @@
             //alert("dateEnroled==="+dateEnroled);
             reset();
             $('#PatientVisitstHistory').collapse("show");
-            document.getElementById("description").innerHTML=desc;
-            document.getElementById("dateEnroled").innerHTML=dateEnroled;
+            if(desc!=""||desc!=null){
+                document.getElementById("description").innerHTML=desc;
+                document.getElementById("dateEnroled").innerHTML=dateEnroled;
+            }
             document.getElementById("enrolementID_visit").value=treatmentID;
-
+          //  alert("ss");
             $.ajax({
                 url: "php/getPatientVisitsDetail.php",
                 type: 'GET',
@@ -1013,7 +1025,8 @@
 
             var visit = new Object();
             var errorMsg="";
-            visit["enrolementID"] = document.getElementById("enrolementID_visit").value;
+            var enrolementID = document.getElementById("enrolementID_visit").value;
+            visit["enrolementID"] = enrolementID;
             visit["fee"] = document.getElementById("fee_visit").value;
             visit["status"] = document.getElementById("status_visit").value;
             visit["date"] = document.getElementById("date_visit").value;
@@ -1040,6 +1053,7 @@
                 success: function (response) {
                     console.log(response);
                     document.getElementById("visitAddError").innerHTML="Succesfully Added. Please refresh.";
+                  //  loadVisits(enrolementID,"","")
                 },
                 error: function (textStatus, errorThrown) {
                     alert(textStatus+" - "+errorThrown);
@@ -1077,13 +1091,13 @@
                 } ,
                 success: function (response) {
                     $("#Treament_enrolled").html("<img width='15%' src='images/tick.svg' />");
-
+                    reset();
+                    document.getElementById("SearchPatientError").innerHTML="Patient is enrolled successfully."
                 },
                 error: function (textStatus, errorThrown) {
                     alert(textStatus+" - "+errorThrown);
                 }
             });
-            document.getElementById("SearchPatientError").innerHTML="Patient is enrolled successfully."
         }
 
 
@@ -1159,7 +1173,33 @@
                 } ,
                 //Data as js object
                 success: function (response) {
-                    console.log(response);
+                   console.log(response);
+
+                   // response = eval('(' + response+ ')');
+                     response=JSON.parse(response);
+                 //   response=response.replace("[","");
+                 //   response=response.replace("]","");
+                 //   response = response.split(",");
+                //   console.log(response);
+                   // response = response.toarr
+                   // response=JSON.decode(response);
+                    var str ="";
+                    var total_Fee=0;
+                   // var enrolmentHistoryBody_Tag = document.getElementById("EnrolmentHistory_Body");
+                    for(var i=0 ;i < response.length; i++) {
+                       // console.log(response[i]);
+                        total_Fee+= parseInt(response[i]['fee']);
+                        str+= "<tr><th scope='row'>"+(parseInt(i)+1) +"</th>"+
+                            "<td>"+response[i]['name']+"</td>"+
+                            "<td>"+response[i]['description']+"</td>"+
+                            "<td>"+response[i]['day']+"-"+response[i]['month']+"-"+response[i]['year']+"</td>"+
+                            "<td>"+response[i]['fee']+"</td>"+
+                            "<td>"+response[i]['status']+"</td>"+
+                            "<td>"+response[i]['day_enroled']+"-"+response[i]['month_enroled']+"-"+response[i]['year_enroled']+"</td>"+
+                            "</tr>";
+                    }
+                    $("#reportTable").find('tbody').html(str);
+                    document.getElementById("totalFee_report").innerHTML=total_Fee;
                 },
                 error: function (textStatus, errorThrown) {
                     alert(textStatus+" - "+errorThrown);
